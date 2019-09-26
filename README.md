@@ -5,7 +5,7 @@ A practise base on Laravel &amp; Vue
 # How to run
 - config composer repo,change to alibaba mirrors
 
-composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+`composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/`
 
 - install dependencies
 
@@ -17,11 +17,15 @@ composer require module/modulename[=....]
 
 - npm setup: change to taobao registry
 
-npm config set registry https://registry.npm.taobao.org
+`npm config set registry https://registry.npm.taobao.org`
+
 check if setted by:
-npm config get registry
+
+`npm config get registry`
+
 or
-npm info express
+
+`npm info express`
 
 - install
 
@@ -32,6 +36,7 @@ npm install
 npm run dev|prod|watch
 
 - install database 
+
   first need a DB instance.
 
 `php artisan migrate`
